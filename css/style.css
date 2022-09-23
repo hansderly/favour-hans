@@ -1,12 +1,13 @@
 /** @format */
 nav {
-  height: 10vh;
+	position: fixed;
+	top: 0;
 }
 #welcome-section {
-  height: 90vh;
+	height: 100vh;
 }
-@media screen and (max-width: 900px) {
-  a {
-    text-decoration: none;
-  }
+@media (max-width: 900px) {
+	a {
+		text-decoration: none;
+	}
 }
